@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Add your CSS styling here */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:lightgray; /* Dark background color */
+}
+
+li {
+  float: left; /* Align items horizontally */
+}
+
+li a {
+  display: block;
+  color: white; /* Text color */
+  text-align: center;
+  padding: 14px 16px; /* Spacing around text */
+  text-decoration: none; /* No underline on links */
+}
+
+/* Change background color of links on hover */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* Highlight the active/current link */
+.active {
+  background-color: gray; /* Green background for active link */
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#java">Java</a></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#css">CSS</a></li>
+</ul>
+
+</body>
+</html>
